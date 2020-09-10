@@ -49,10 +49,10 @@ class CPCV2(pl.LightningModule):
             **kwargs,
     ):
         """
-        PyTorch Lightning implementation of `Data-Efficient Image Recognition with Contrastive Predictive Coding	
+        PyTorch Lightning implementation of `Data-Efficient Image Recognition with Contrastive Predictive Coding
         <https://arxiv.org/abs/1905.09272>`_
 
-        Paper authors: (Olivier J. Hénaff, Aravind Srinivas, Jeffrey De Fauw, Ali Razavi,	
+        Paper authors: (Olivier J. Hénaff, Aravind Srinivas, Jeffrey De Fauw, Ali Razavi,
         Carl Doersch, S. M. Ali Eslami, Aaron van den Oord).
         Args:
             datamodule: A Datamodule (optional). Otherwise set the dataloaders directly
